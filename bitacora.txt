@@ -5,3 +5,10 @@ PUERTO:5500
 RUTA:/index.html
 METODO DE PETICION:GET
 CODIGO DE ESTADO:304
+
+DIRECCION INEXISTENTE:http://127.0.0.1:5500/index.html/promociones.html
+Error: ENOTDIR: not a directory, stat '/home/cohorte8/JulianGZ/rueda-libre/index.html/promociones.html'
+El 500 Internal Server Error es un código de estado genérico que indica que el servidor web encontró una condición inesperada y no pudo completar la solicitud
+
+HTML cumplira el rol de darle la estructura a la pagina web, CSS  le dara los estilos y colores y Javascript sera el encargado de darle las funcionalidades con las que las personas
+podran interactuar con ella.

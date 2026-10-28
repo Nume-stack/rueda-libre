@@ -1,75 +1,154 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de alquiler de bicicletas en Medellín">
+    <link rel="stylesheet" href="./style.css">
     <title>Rueda Libre | Alquiler de bicicletas en Medellín</title>
 </head>
+
 <body>
-    <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
-    <p>Bienvenido a Rueda Libre, tu opción confiable para alquilar bicicletas en Medellín. Explora la ciudad de manera ecológica y divertida con nuestras bicicletas de alta calidad.</p>
-    <div>
+
+    <header>
+        <h1>Rueda Libre | Alquiler de bicicletas en Medellín</h1>
+
         <img src="./img/paseo.png" alt="Paseando por un valle">
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./paginas/tarifas.html">Tarifas y Rutas</a>
-            </li>
-            <li>
-                <a href="./paginas/reservas.html">Reservas</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="servicios">
-        <h2>Nuestros servicios</h2>
-        <div id="alquiler">
-            <h3>Alquiler de bicicletas</h3>
-            <p>Disfruta de la libertad de explorar nuevos lugares sobre dos ruedas. Ofrecemos el alquiler de bicicletas cómodas y en buen estado, ideales para recorrer la ciudad, descubrir paisajes naturales o disfrutar de un paseo al aire libre.  <strong>¡Elige tu bicicleta y comienza la aventura a tu propio ritmo!</strong></p>
-        </div>
-        <div id="recorrido">
-            <h3>Recorrido Basico</h3>
-            <p><strong>Descubre nuevos lugares y vive experiencias</strong> únicas con nuestros recorridos guiados en bicicleta. Te acompañamos por rutas llenas de paisajes, cultura y aventura, mientras conoces los rincones más interesantes de la zona. Una experiencia ideal para disfrutar, aprender y compartir mientras pedaleas. Conoce nuestros recorridos y tarifas haciendo click <a href="./paginas/tarifas.html#recorridos">aqui</a>.</p>
-        </div>
-        <div id="taller">
-            <h3>Taller guiado</h3>
-            <p>Aprende a cuidar tu bicicleta y a mantenerla en las mejores condiciones con nuestro taller básico. Te enseñamos aspectos esenciales como revisar los frenos, mantener las llantas infladas, lubricar la cadena y reconocer posibles problemas mecánicos. <strong>¡Adquiere conocimientos prácticos para pedalear con mayor seguridad y confianza!</strong></p>
-        </div>
-        <a href="./reservas.html">Reservar ahora</a>
 
-    </section>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./paginas/tarifas.html">Tarifas y Rutas</a>
+                </li>
+                <li>
+                    <a href="./paginas/reservas.html">Reservas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="alquilar">
-        <h2>PASOS PARA ALQUILAR UNA BICI</h2>
-        <p>Alquilar una bici con nosotros es muy sencillo; lo puedes hacer a través del formulario que está en la parte superior o a través de WhatsApp. Estaremos encantados de apoyarte durante todo el proceso. 
-        </p>
-        <ol>
-            <li><h3> Lugar y fecha de recogida y entrega </h3></li>
-            <p>Selecciona lugar, la fecha y el horario donde quieres recibir y entregar la bici.</p>
-            <li><h3> Selecciona la bici y los accesorios </h3></li>
-            <p>Elige la bici adecuada para tu aventura. Puedes filtrar por talla y modalidad (ruta, gravel, e-bike).</p>
-            <li><h3> Tenemos todo el equipo que necesites </h3></li>
-            <p>Podemos complementar tu viaje con accesorios como casco, bibs, jersey, gafas, guantes, etc. Selecciona lo que necesites.</p>
-            <li><h3> Realiza el pago y estás listo para rodar </h3></li>
-            <p>Después de hacer el pago, te llevaremos la bici al lugar que nos indicaste o también la puedes recoger en nuestros puntos físicos.
+    <main>
+
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+
+            <article id="alquiler">
+                <h3>Alquiler de bicicletas</h3>
+                <p>
+                    Disfruta de la libertad de explorar nuevos lugares sobre dos ruedas.
+                    Ofrecemos el alquiler de bicicletas cómodas y en buen estado,
+                    ideales para recorrer la ciudad, descubrir paisajes naturales o
+                    disfrutar de un paseo al aire libre.
+                    <strong>¡Elige tu bicicleta y comienza la aventura a tu propio ritmo!</strong>
+                </p>
+            </article>
+
+            <article id="recorrido">
+                <h3>Recorrido Básico</h3>
+                <p>
+                    <strong>Descubre nuevos lugares y vive experiencias</strong>
+                    únicas con nuestros recorridos guiados en bicicleta.
+                    Te acompañamos por rutas llenas de paisajes, cultura y aventura,
+                    mientras conoces los rincones más interesantes de la zona.
+                    Una experiencia ideal para disfrutar, aprender y compartir
+                    mientras pedaleas. Conoce nuestros recorridos y tarifas
+                    haciendo clic
+                    <a href="./paginas/tarifas.html#recorridos">aquí</a>.
+                </p>
+            </article>
+
+            <article id="taller">
+                <h3>Taller guiado</h3>
+                <p>
+                    Aprende a cuidar tu bicicleta y a mantenerla en las mejores
+                    condiciones con nuestro taller básico. Te enseñamos aspectos
+                    esenciales como revisar los frenos, mantener las llantas
+                    infladas, lubricar la cadena y reconocer posibles problemas
+                    mecánicos.
+                    <strong>¡Adquiere conocimientos prácticos para pedalear
+                    con mayor seguridad y confianza!</strong>
+                </p>
+            </article>
+
+            <p>
+                <a href="./paginas/reservas.html">Reservar ahora</a>
             </p>
-        </ol>
-        <h2>BENEFICIOS</h2>
-        
-    </section>
+        </section>
+
+        <section id="alquilar">
+            <h2>Pasos para alquilar una bici</h2>
+
+            <p>
+                Alquilar una bici con nosotros es muy sencillo.
+                Puedes hacerlo a través del formulario de reservas
+                o mediante WhatsApp. Estaremos encantados de apoyarte
+                durante todo el proceso.
+            </p>
+
+            <ol>
+                <li>
+                    <h3>Lugar y fecha de recogida y entrega</h3>
+                    <p>
+                        Selecciona el lugar, la fecha y el horario
+                        donde quieres recibir y entregar la bici.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Selecciona la bici y los accesorios</h3>
+                    <p>
+                        Elige la bici adecuada para tu aventura.
+                        Puedes filtrar por talla y modalidad
+                        (ruta, gravel, e-bike).
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Tenemos todo el equipo que necesites</h3>
+                    <p>
+                        Podemos complementar tu viaje con accesorios
+                        como casco, bibs, jersey, gafas y guantes.
+                        Selecciona lo que necesites.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Realiza el pago y estás listo para rodar</h3>
+                    <p>
+                        Después de hacer el pago, te llevaremos la bici
+                        al lugar que nos indicaste o también la puedes
+                        recoger en nuestros puntos físicos.
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios</h2>
+
+            <!-- Agrega aquí la descripción de los beneficios de Rueda Libre. -->
+
+        </section>
+
+    </main>
+
     <footer>
         <address class="datos-negocio">
             <strong>Rueda Libre</strong><br>
-            📧 Correo electrónico: <a href="mailto:info@ruedalibre.com">info@ruedalibre.com</a>
+            📧 Correo electrónico:
+            <a href="mailto:info@ruedalibre.com">info@ruedalibre.com</a>
         </address>
 
-
         <p class="copyright">
-            &copy; <time datetime="2026">2026</time> Rueda Libre. Todos los derechos reservados.
+            &copy; <time datetime="2026">2026</time>
+            Rueda Libre. Todos los derechos reservados.
         </p>
-    </footer>    
+    </footer>
+
 </body>
 </html>
